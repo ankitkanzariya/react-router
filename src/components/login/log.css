@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.log {
+  text-align: center;
+  padding: 100px 80px;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+.card {
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(to top, rgb(158, 158, 176), rgb(211, 140, 140));
+}
+.form {
+  text-align: left;
+  padding: 0 50px;
+
+}
+.h1 {
+  text-align: center;
+  padding: 50px;
+}
+.Password label {
+  display: block;
+}
+.UserName #UserName{
+  width: 270px;
+  margin: 10px 0;
+  border: none;
+  outline: none;  
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+.Password #Password{
+  width: 270px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+#Password::placeholder {
+  color: rgb(92, 98, 98);
+}
+.btn {
+  padding: 50px;
+  text-align: center;
+}
+.Log {
+  padding: 10px 30px;
+  background-color: rgb(80, 80, 197);
+  border-radius: 5px;
+  border: none;
+}
+.error {
+  color: rgb(225, 24, 24);
+}
+.show-Password{
+  margin: 10px;
+}

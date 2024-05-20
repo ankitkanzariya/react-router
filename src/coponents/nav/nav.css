@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    padding: 40px;
+    list-style: none;
+}
+.home{
+    margin: 50px;
+    text-decoration: none;
+}
+.NavLink{
+    text-decoration: none;
+}
